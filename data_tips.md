@@ -1,14 +1,21 @@
 # Data Collection and Management
 
-Data collection and management is the most important part of the research process. Below is a minimum set of rules you should follow:
+Data collection and management is the most important part of the research process. 
+Below is a minimum set of rules you should follow:
 
-## Lectures
+## Tidy data
+Your dataset should look **[tidy]([url](https://openscapes.org/blog/2020-10-12-tidy-data/))**
 
-- **Data Organization in Spreadsheets**  
-  [Link to article](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#abstract)
+![tidy-data](https://github.com/user-attachments/assets/081ba1fc-e5df-48e5-a095-6182167ae316)
 
-- **Eleven Quick Tips for Properly Handling Tabular Data**  
-  [Link to article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012604)
+**Why?**
+Tidy data allows you to be more efficient by using existing tools deliberately built to do the things you need to do,
+![tidydata_2](https://github.com/user-attachments/assets/15952ab1-7a94-4420-b743-a81c49993358)
+Tidy data makes it easier to collaborate
+![tidydata_3](https://github.com/user-attachments/assets/28c9d820-8356-4774-b2cc-35845744b929)
+Tidy data also makes it easier to reproduce analyses because they are easier to understand, update, and reuse.
+![tidydata_5](https://github.com/user-attachments/assets/6e04ca30-9ab7-474f-866f-c6fe2935576f)
+
 
 ## Basics of Research Data Management: Tabular Data (Spreadsheets)
 
@@ -50,7 +57,7 @@ Data collection and management is the most important part of the research proces
    - **Variable Names**:  
      - Avoid spaces and avoid starting with numbers.  
      - **Do**: Use numbers and letters.  
-     - **Avoid**: Special characters and symbols.  
+     - **Avoid**Special characters and symbols.  
      - **Do**: Use underscores (`_`) instead of spaces.  
    - Use both an **internal column name** and a **displayed name**:  
      - Example: Internal column name `max_temp`, displayed name `Maximum Temp (°C)`.
@@ -65,8 +72,23 @@ Data collection and management is the most important part of the research proces
 
 
 1. **Write Dates as YYYY-MM-DD**  
-    - Avoid formats like DD-MM-YYYY, which can lead to inconsistencies.  
-    - When loading data, convert `YYYY-MM-DD` to text to preserve formatting.  
+    - Avoid formats like DD-MM-YYYY, which can lead to inconsistencies.
+    - Convert `YYYY-MM-DD` to text to preserve formatting when loading data.  
     - Alternatively, store dates as an integer in the format `YYYYMMDD`.
+  
+## Readings
+
+- **Data Organization in Spreadsheets**  
+  [Link to article](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989#abstract)
+
+- **Grolemund, G. & Wickham, H. (2016). *R for Data Science: Chapter 12 (Tidy Data)***  
+  [Link to book](https://r4ds.had.co.nz)
+
+- **How to Share Data for Collaboration**  
+  [Link to article](https://peerj.com/preprints/3139/)
+
+- **Eleven Quick Tips for Properly Handling Tabular Data**  
+  [Link to article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012604)
+
 
       
