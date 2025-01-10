@@ -90,5 +90,13 @@ Tidy data also makes it easier to reproduce analyses because they are easier to 
 - **Eleven Quick Tips for Properly Handling Tabular Data**  
   [Link to article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012604)
 
+## Tools
+
+## Tools
+
+- **OpenRefine for Data Cleaning**  
+  [Watch a 5-minute tutorial](https://www.youtube.com/watch?v=nORS7STbLyk)
+
+
 
       
